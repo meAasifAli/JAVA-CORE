@@ -1,5 +1,5 @@
 
-public class Main {
+class Main {
 
     public String name = "John"; // attribute with public access modifier can be accessed by any other class
     private int age = 30; // attribute with private access modifier can only be accessed by the class itself
