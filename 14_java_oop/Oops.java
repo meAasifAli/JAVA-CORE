@@ -13,12 +13,11 @@ public class Oops {
         Oops m2 = new Oops();
         System.out.println(m2.x);
 
-        Main obj = new Main(2017, "Aasif");
-
-        System.out.println(obj.name); // public attribute is accessed here from Main class
-        // System.out.println(obj.age); // private attribute can't be directly accessed here from Main class
-        // we can call getter method to acces it here
-        obj.getAge();
+        // Main obj = new Main(2017, "Aasif");
+        // System.out.println(obj.name); // public attribute is accessed here from Main class
+        // // System.out.println(obj.age); // private attribute can't be directly accessed here from Main class
+        // // we can call getter method to acces it here
+        // obj.getAge();
     }
 
 }
